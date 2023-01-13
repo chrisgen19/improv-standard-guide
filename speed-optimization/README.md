@@ -12,15 +12,15 @@
   <summary>
     <a href="#1-get-started">1. Get Started (5)</a>
   </summary>
- &emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
+    [1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 </details>
 
 <details>
   <summary>
     <a href="#2-optimize-image">2. Optimize Image (2)</a>
   </summary>
- &emsp;&emsp;[2.1 Structure your solution by components `#strategic`](#-11-structure-your-solution-by-components)</br>
- &emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
+    [2.1 Structure your solution by components `#strategic`](#-11-structure-your-solution-by-components)</br>
+    [1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 </details>
 
 ## 1. Get Started
