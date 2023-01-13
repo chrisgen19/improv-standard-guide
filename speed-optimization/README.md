@@ -19,8 +19,8 @@
   <summary>
     <a href="#2-optimize-image">2. Optimize Image (2)</a>
   </summary>
-&emsp;&emsp;[2.1 Structure your solution by components `#strategic`](#21-structure-your-solution-by-components)</br>
-&emsp;&emsp;[2.2 Layer your components, keep the web layer within its boundaries `#strategic`](#22-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
+&emsp;&emsp;[2.1 Structure your solution by components](#structure-your-solution-by-components)</br>
+&emsp;&emsp;[2.2 Layer your components, keep the web layer within its boundaries](#22-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 </details>
 
 ## 1. Get Started
@@ -40,7 +40,7 @@ Speed optimization is an important aspect of web development, as it can greatly 
 
 Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
 
-## 2.1 Structure your solution by components
+## Structure your solution by components
 
 **TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
 
