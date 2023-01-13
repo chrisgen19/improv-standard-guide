@@ -81,7 +81,7 @@ img {
   object-fit: contain;
 }
 ```
-## 1.3 Deliver your images
+### 1.3 Deliver your images
 
 #### Sizing hints
 
