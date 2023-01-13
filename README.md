@@ -16,6 +16,7 @@ the data.
 
 * `S` [Frontend Speed Optimization](/speed-optimization)
 * `T` [Frontend Tracker](/tracker)
+* `R` [Responsive Development](/responsive)
 
 
 
