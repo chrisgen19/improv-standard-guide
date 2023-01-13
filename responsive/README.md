@@ -14,8 +14,8 @@
 &nbsp;&nbsp;[1.2 Responsive Div](#12-responsive-dive)</br>
 [2. Flexbox](#2-flexbox)</br>
 &nbsp;&nbsp;[2.1 Flexbox Image](#21-flexbox-image)</br>
-[3. Grid Layout](#2-grid-layout)</br>
-&nbsp;&nbsp;[3.1 Grid Elements](#21-grid-elements)</br>
+[3. Grid Layout](#3-grid-layout)</br>
+&nbsp;&nbsp;[3.1 Grid Elements](#31-grid-elements)</br>
 
 ## 1. Images
 
