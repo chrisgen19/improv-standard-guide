@@ -65,6 +65,14 @@ You can also use the srcset attribute to provide different versions of the image
 </picture>
 ```
 
+You can also use the srcset attribute to provide different versions of the image at different sizes, and the browser will choose the best one for the device.
+
+```html
+<img src="image-small.jpg" alt="My image" class="responsive-image"
+  srcset="image-small.jpg 400w, image-medium.jpg 800w, image-large.jpg 1200w"
+  sizes="(max-width: 600px) 400px, (max-width: 1200px) 800px, 1200px">
+```
+
 ### Prerequisites
 
 - List of things the user needs to have installed in order to run the project
