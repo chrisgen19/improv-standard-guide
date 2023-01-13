@@ -8,10 +8,10 @@
 </h1>
 
 ## Table of Contents
-<details>
-    <a href="#1-get-started">1. Get Started (5)</a>
 
-</details>
+  <summary>
+    <a href="#1-get-started">1. Get Started (5)</a>
+  </summary>
 
 <details>
   <summary>
