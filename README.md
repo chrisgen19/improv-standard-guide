@@ -1,3 +1,13 @@
+<h1 align="center">
+<br>
+    <img src="https://cdn.myimprov.com/wp-content/uploads/20220513155747/myimprov-logo-2022.png" alt="Improv Checklist" width="220">
+    <br>
+    <br>
+    Improv Checklist
+  <br>
+</h1>
+
+
 # My Awesome Project
 
 A brief description of what the project does.
