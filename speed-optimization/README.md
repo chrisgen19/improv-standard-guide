@@ -12,15 +12,15 @@
   <summary>
     <a href="#1-get-started">1. Get Started (5)</a>
   </summary>
-    [1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
+    [1.1 Wrap common utilities as npm packages](#-11-wrap-common-utilities-as-npm-packages)
 </details>
 
 <details>
   <summary>
     <a href="#2-optimize-image">2. Optimize Image (2)</a>
   </summary>
-    [2.1 Structure your solution by components `#strategic`](#-21-structure-your-solution-by-components)</br>
-    [1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-22-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
+    [2.1 Structure your solution by components `#strategic`](#-21-structure-your-solution-by-components)
+    [2.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-22-layer-your-components-keep-the-web-layer-within-its-boundaries)
 </details>
 
 ## 1. Get Started
@@ -33,6 +33,10 @@ Speed optimization is an important aspect of web development, as it can greatly 
 - **Use a caching mechanism**: Caching is the process of storing a copy of a resource locally, so that it doesn't need to be re-downloaded every time it's requested. This can greatly improve the speed of a website by reducing the number of HTTP requests.
 - **Optimize code**: Optimize code by minifying and compressing HTML, CSS, and JavaScript files. Use a build tool like webpack or gulp to automate this process.
 - **Test, Measure and Monitor**: Continuously measure your website's performance and make changes as needed. Use monitoring tools such as Google Analytics, New Relic, or Loggly to track the performance of your website over
+
+## ![✔] 1.1 Wrap common utilities as npm packages
+
+## ![✔] 2.1 Structure your solution by components
 
 ## 2. Optimize Image
 
