@@ -16,11 +16,11 @@
 &emsp;&emsp;[1.1 Responsive Image](#11-responsive-image)</br>
 </details>
 
-[1. Images](#1-images)
-&nbsp;&nbsp;[1.1 Responsive Image](#11-responsive-image)
-&nbsp;&nbsp;[1.2 Responsive Div](#12-responsive-dive)
-[2. Flexbox](#2-flexbox)
-&nbsp;&nbsp;[2.1 Flexbox Image](#21-flexbox-image)
+[1. Images](#1-images)</br>
+&nbsp;&nbsp;[1.1 Responsive Image](#11-responsive-image)</br>
+&nbsp;&nbsp;[1.2 Responsive Div](#12-responsive-dive)</br>
+[2. Flexbox](#2-flexbox)</br>
+&nbsp;&nbsp;[2.1 Flexbox Image](#21-flexbox-image)</br>
 
 ## 1. Images
 
