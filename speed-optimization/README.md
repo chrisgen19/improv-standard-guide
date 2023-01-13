@@ -21,7 +21,7 @@
     <a href="#2-optimize-image">2. Optimize Image (2)</a>
   </summary>
 
-&emsp;&emsp;[2.1 Image structure using <picture>](#21-image-structure-using-picture)</br>
+&emsp;&emsp;[2.1 Image structure in webp format](#21-image-structure-in-webp-format)</br>
 &emsp;&emsp;[2.2 Layer your components, keep the web layer within its boundaries](#-22-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 </details>
 
@@ -41,7 +41,16 @@ Speed optimization is an important aspect of web development, as it can greatly 
 ## 2. Optimize Image
 
 Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
-## 2.1 Image Structure using Picture
+## 2.1 Image Structure in webp format
+
+```html
+<!-- using Picture in WebP Format -->
+<picture>
+  <source srcset="image.webp" type="image/webp">
+  <source srcset="image.jpg" type="image/jpeg">
+  <img src="image.jpg" alt="My image">
+</picture>
+```
 
 **TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
 
