@@ -10,11 +10,17 @@
 ## Table of Contents
 <details>
   <summary>
-    <a href="#1-images">1. Images</a>
+    <a href="#1-images">2. Images</a>
   </summary>
 
 &emsp;&emsp;[1.1 Responsive Image](#11-responsive-image)</br>
 </details>
+
+[1. Images](#1-images)
+  [1.1 Responsive Image](#11-responsive-image)
+  [1.2 Responsive Div](#12-responsive-dive)
+[2. Flexbox](#2-flexbox)
+  [2.1 Flexbox Image](#21-flexbox-image)
 
 ## 1. Images
 
