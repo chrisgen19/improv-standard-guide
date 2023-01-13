@@ -12,15 +12,15 @@
   <summary>
     <a href="#1-get-started">1. Get Started (5)</a>
   </summary>
-    [1.1 Wrap common utilities as npm packages](#-11-wrap-common-utilities-as-npm-packages)
+[1.1 Wrap common utilities as npm packages](#-11-wrap-common-utilities-as-npm-packages)
 </details>
 
 <details>
   <summary>
     <a href="#2-optimize-image">2. Optimize Image (2)</a>
   </summary>
-    [2.1 Structure your solution by components `#strategic`](#-21-structure-your-solution-by-components)
-    [2.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-22-layer-your-components-keep-the-web-layer-within-its-boundaries)
+[2.1 Structure your solution by components `#strategic`](#-21-structure-your-solution-by-components)
+[2.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-22-layer-your-components-keep-the-web-layer-within-its-boundaries)
 </details>
 
 ## 1. Get Started
