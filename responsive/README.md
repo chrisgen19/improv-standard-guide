@@ -11,7 +11,8 @@
 
 [1. Images](#1-images)</br>
 &nbsp;&nbsp;[1.1 Responsive Image](#11-responsive-image)</br>
-&nbsp;&nbsp;[1.2 Responsive Div](#12-responsive-dive)</br>
+&nbsp;&nbsp;[1.2 Constrain your images](#12-constrain-your-images)</br>
+&nbsp;&nbsp;[1.3 Deliver your images](#13-deliver-your-images)</br>
 [2. Flexbox](#2-flexbox)</br>
 &nbsp;&nbsp;[2.1 Flexbox Image](#21-flexbox-image)</br>
 [3. Grid Layout](#3-grid-layout)</br>
@@ -54,6 +55,74 @@ You can also use the srcset attribute to provide different versions of the image
   srcset="image-small.jpg 400w, image-medium.jpg 800w, image-large.jpg 1200w"
   sizes="(max-width: 600px) 400px, (max-width: 1200px) 800px, 1200px">
 ```
+
+### 1.2 Constrain your images
+
+In your stylesheet, you can declare that images should never be rendered at a size wider than their containing element using max-inline-size.
+
+```css
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+```
+
+Adding a block-size value of auto means that the aspect-ratio of the images will remain constant.
+
+Sometimes the dimensions of an image might be out of your control—if an image is added through a content management system, for example. If your design calls for a images to have an aspect ratio that's different to the image's real dimensions, use the aspect-ratio property in CSS.
+
+An object-fit value of contain tells the browser to preserve the image's aspect ratio, even if that means leaving empty space above and below.
+
+```css
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+}
+```
+#### Sizing hints
+
+```html
+<img
+ src="image.png"
+ alt="A description of the image."
+ width="300"
+ height="200"
+>
+```
+
+#### Loading hints
+
+```html
+<img
+ src="image.png"
+ alt="A description of the image."
+ width="300"
+ height="200"
+ loading="lazy"
+>
+```
+
+For a hero image above the fold, use a loading value of eager.
+
+```html
+<img
+ src="hero.jpg"
+ alt="A description of the image."
+ width="1200"
+ height="800"
+ loading="eager"
+>
+```
+
+For an important image you can tell the browser to pre-fetch the image in the head of your document.
+
+```html
+<link rel="prefetch" href="hero.jpg" as="image">
+```
+
+## 1.3 Deliver your images
 
 ## 3. Grid Layout
 
