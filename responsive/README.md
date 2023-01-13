@@ -16,6 +16,7 @@
 &nbsp;&nbsp;[2.1 Flexbox Image](#21-flexbox-image)</br>
 [3. Grid Layout](#3-grid-layout)</br>
 &nbsp;&nbsp;[3.1 Grid Elements](#31-grid-elements)</br>
+[4. Breakpoints](#4-breakpoints)</br>
 
 ## 1. Images
 
@@ -120,3 +121,36 @@ This media query will change the grid-template-columns property when the screen 
 You can also use other media query features like min-width, max-width, min-height, max-height and orientation to make it more refined.
 
 In addition, you can use other CSS properties like flex-wrap:wrap to help with responsive behaviour.
+
+## 4. Breakpoints
+
+Web breakpoints are the points at which a website's layout and design change to better accommodate the viewport of the device being used to view it. Breakpoints are typically set based on the specific widths of different device screen sizes, and are used to apply different CSS styles to different screen sizes.
+
+Here are some common breakpoint widths for responsive CSS:
+
+- Mobile-first: This approach starts with a small screen size (typically around 320px) and then increases the screen size as necessary.
+- 320px: This breakpoint is used for small screen devices such as smartphones.
+- 480px: This breakpoint is used for small-to-medium screen devices such as older smartphones and small tablets.
+- 600px: This breakpoint is used for medium-sized screens such as newer tablets and small laptops.
+- 768px: This breakpoint is used for larger screens such as laptops and small desktop displays.
+- 992px: This breakpoint is used for larger desktop displays and monitors.
+- 1200px: This breakpoint is used for even larger screens such as large desktop displays and monitors.
+
+It is important to note that these are just general guidelines and you should always test your website on different devices and screen sizes to ensure that it looks and functions as desired. Also, you can use CSS media queries to apply different styles to different screen sizes.
+
+```css
+/* Mobile-first */
+@media (min-width: 320px) {
+  /* styles for small screens */
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  /* styles for medium screens */
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  /* styles for large screens */
+}
+```
