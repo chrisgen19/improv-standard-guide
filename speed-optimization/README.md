@@ -8,8 +8,8 @@
 </h1>
 
 ## Table of Contents
- <a href="#1-project-structure-practices">1. Project Structure Practices (5)</a>
-## `1. Project Structure Practices`
+ <a href="#1-get-started">1. Get Started (5)</a>
+## `1. Get Started`
 
 Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
 
