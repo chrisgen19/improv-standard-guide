@@ -12,6 +12,13 @@
   <summary>
     <a href="#1-get-started">1. Get Started (5)</a>
   </summary>
+ &emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
+</details>
+
+<details>
+  <summary>
+    <a href="#1-optimize image">2. Optimize Image (2)</a>
+  </summary>
  &emsp;&emsp;[1.1 Structure your solution by components `#strategic`](#-11-structure-your-solution-by-components)</br>
  &emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 </details>
@@ -26,6 +33,17 @@ Speed optimization is an important aspect of web development, as it can greatly 
 - **Use a caching mechanism**: Caching is the process of storing a copy of a resource locally, so that it doesn't need to be re-downloaded every time it's requested. This can greatly improve the speed of a website by reducing the number of HTTP requests.
 - **Optimize code**: Optimize code by minifying and compressing HTML, CSS, and JavaScript files. Use a build tool like webpack or gulp to automate this process.
 - **Test, Measure and Monitor**: Continuously measure your website's performance and make changes as needed. Use monitoring tools such as Google Analytics, New Relic, or Loggly to track the performance of your website over
+
+## 2. Optimize Image
+
+Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
+
+## ![✔] 1.1 Structure your solution by components
+
+**TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
+
+**Otherwise:** When developers who code new features struggle to realize the impact of their change and fear to break other dependent components - deployments become slower and riskier. It's also considered harder to scale-out when all the business units are not separated
+
 
 ### Prerequisites
 
