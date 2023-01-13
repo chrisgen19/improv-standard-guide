@@ -8,10 +8,14 @@
 </h1>
 
 ## Table of Contents
- <a href="#1-get-started">1. Get Started (5)</a>
+<details>
+  <summary>
+    <a href="#1-get-started">1. Get Started (5)</a>
+  </summary>
  &emsp;&emsp;[1.1 Structure your solution by components `#strategic`](#-11-structure-your-solution-by-components)</br>
  &emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 ## 1. Get Started
+</details>
 
 Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
 
