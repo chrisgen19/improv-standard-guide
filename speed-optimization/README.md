@@ -3,19 +3,11 @@
     <img src="https://cdn.myimprov.com/wp-content/uploads/20220513155747/myimprov-logo-2022.png" alt="Improv Checklist" width="220">
     <br>
     <br>
-    Improv Checklist
+    Improv Checklist for Speed Optimization
   <br>
 </h1>
 
-## Table of Contents
-
-A data structure is a particular way of organizing and storing data in a computer so that it can
-be accessed and modified efficiently. More precisely, a data structure is a collection of data
-values, the relationships among them, and the functions or operations that can be applied to
-the data.
-
-* `S` [Frontend Speed Optimization](/speed-optimization)
-* `T` [Frontend Tracker](/tracker)
+## Speed Optimization
 
 
 
