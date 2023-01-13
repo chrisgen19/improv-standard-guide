@@ -8,13 +8,6 @@
 </h1>
 
 ## Table of Contents
-<details>
-  <summary>
-    <a href="#1-images">2. Images</a>
-  </summary>
-
-&emsp;&emsp;[1.1 Responsive Image](#11-responsive-image)</br>
-</details>
 
 [1. Images](#1-images)</br>
 &nbsp;&nbsp;[1.1 Responsive Image](#11-responsive-image)</br>
