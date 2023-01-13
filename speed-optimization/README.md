@@ -41,7 +41,7 @@ Speed optimization is an important aspect of web development, as it can greatly 
 ## 2. Optimize Image
 
 Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
-## 2.1 Image Structure in webp format
+### 2.1 Image Structure in webp format
 
 ```html
 <!-- using Picture in WebP Format -->
