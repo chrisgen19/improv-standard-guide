@@ -21,7 +21,7 @@
     <a href="#2-optimize-image">2. Optimize Image (2)</a>
   </summary>
 
-&emsp;&emsp;[2.1 Structure your solution by components](#-21-structure-your-solution-by-components)</br>
+&emsp;&emsp;[2.1 Structure your solution by components](#21-structure-your-solution-by-components)</br>
 &emsp;&emsp;[2.2 Layer your components, keep the web layer within its boundaries](#-22-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
 </details>
 
