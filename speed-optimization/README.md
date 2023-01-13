@@ -10,7 +10,7 @@
 ## Table of Contents
 <details>
   <summary>
-    <a href="#1-get-started">1. Get Started (0)</a>
+    <a href="#1-get-started">1. Get Started</a>
   </summary>
 
 </details>
