@@ -37,7 +37,7 @@ Speed optimization is an important aspect of web development, as it can greatly 
 
 ## 2. Optimize Image
 
-Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
+WebP is an image format that supports both lossy and lossless compression. It can be used to create responsive images that can be served to different devices at different sizes and resolutions. Here is an example of how to use the picture element and source elements to create a responsive image using the WebP format:
 ### 2.1 Image Structure in webp format
 
 ```html
@@ -45,6 +45,22 @@ Speed optimization is an important aspect of web development, as it can greatly 
 <picture>
   <source srcset="image.webp" type="image/webp">
   <source srcset="image.jpg" type="image/jpeg">
+  <img src="image.jpg" alt="My image">
+</picture>
+```
+
+In this example, the browser will first look for the WebP version of the image and use it if it is supported. If the browser does not support WebP, it will fall back to the JPEG version of the image. This way, you can serve the WebP version of the image to devices that support it, and fall back to a more widely supported format like JPEG for devices that don't.
+
+You can also use the srcset attribute to provide different versions of the image at different sizes, and the browser will choose the best one for the device.
+
+```html
+<picture>
+  <source srcset="image-small.webp" media="(max-width: 600px)" type="image/webp">
+  <source srcset="image-medium.webp" media="(max-width: 1200px)" type="image/webp">
+  <source srcset="image-large.webp" type="image/webp">
+  <source srcset="image-small.jpg" media="(max-width: 600px)" type="image/jpeg">
+  <source srcset="image-medium.jpg" media="(max-width: 1200px)" type="image/jpeg">
+  <source srcset="image-large.jpg" type="image/jpeg">
   <img src="image.jpg" alt="My image">
 </picture>
 ```
