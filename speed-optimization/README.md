@@ -34,15 +34,13 @@ Speed optimization is an important aspect of web development, as it can greatly 
 - **Optimize code**: Optimize code by minifying and compressing HTML, CSS, and JavaScript files. Use a build tool like webpack or gulp to automate this process.
 - **Test, Measure and Monitor**: Continuously measure your website's performance and make changes as needed. Use monitoring tools such as Google Analytics, New Relic, or Loggly to track the performance of your website over
 
-## ![✔] 1.1 Wrap common utilities as npm packages
-
-## ![✔] 2.1 Structure your solution by components
+## 1.1 Wrap common utilities as npm packages
 
 ## 2. Optimize Image
 
 Speed optimization is an important aspect of web development, as it can greatly impact the user experience and the overall performance of a website. Here is a general procedure for optimizing the speed of a website:
 
-## ![✔] 2.1 Structure your solution by components
+## 2.1 Structure your solution by components
 
 **TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
 
