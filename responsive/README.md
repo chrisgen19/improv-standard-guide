@@ -81,6 +81,8 @@ img {
   object-fit: contain;
 }
 ```
+## 1.3 Deliver your images
+
 #### Sizing hints
 
 ```html
@@ -121,8 +123,6 @@ For an important image you can tell the browser to pre-fetch the image in the he
 ```html
 <link rel="prefetch" href="hero.jpg" as="image">
 ```
-
-## 1.3 Deliver your images
 
 ## 3. Grid Layout
 
