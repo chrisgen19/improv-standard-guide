@@ -17,10 +17,10 @@
 </details>
 
 [1. Images](#1-images)
-  [1.1 Responsive Image](#11-responsive-image)
-  [1.2 Responsive Div](#12-responsive-dive)
+&nbsp;&nbsp;[1.1 Responsive Image](#11-responsive-image)
+&nbsp;&nbsp;[1.2 Responsive Div](#12-responsive-dive)
 [2. Flexbox](#2-flexbox)
-  [2.1 Flexbox Image](#21-flexbox-image)
+&nbsp;&nbsp;[2.1 Flexbox Image](#21-flexbox-image)
 
 ## 1. Images
 
