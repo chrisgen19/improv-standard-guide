@@ -18,6 +18,7 @@
 [3. Grid Layout](#3-grid-layout)</br>
 &nbsp;&nbsp;[3.1 Grid Elements](#31-grid-elements)</br>
 [4. Breakpoints](#4-breakpoints)</br>
+[5. Splitting The CSS](#5-splitting-the-css)</br>
 
 ## 1. Images
 
@@ -222,4 +223,16 @@ It is important to note that these are just general guidelines and you should al
 @media (min-width: 992px) {
   /* styles for large screens */
 }
+```
+
+## 5. Splitting the CSS
+
+Separating the CSS into individual files is a worthwhile task. Linking the separate CSS files using the relevant media attribute allows the browser to identify which files are needed immediately (because they’re render-blocking) and which can be deferred. Based on this, it allocates each file an appropriate priority.
+
+```html
+<link href="default.css" rel="stylesheet">
+<link href="mobile.css" media="screen and (max-width: 767.98px)" rel="stylesheet">
+<link href="tablet.css" media="screen and (min-width: 768px) and (max-width: 1083.98px)" rel="stylesheet">
+<link href="desktop.css" media="screen and (min-width: 1084px)" rel="stylesheet">
+<link href="print.css" media="print" rel="stylesheet">
 ```
