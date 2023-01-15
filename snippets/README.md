@@ -40,3 +40,12 @@ foreach ( $templates as $template_name => $template_file ) {
 This code uses the get_page_templates() function to get all the page templates available in the theme, and the get_pages() function to get the pages that use a specific template. It then loops through the templates and prints the template name and file, followed by a list of the pages that use that template.
 
 You can use this code in a custom plugin or in your theme's functions.php file. Keep in mind that you should test the code in a local environment or a test site before using it on a live site. Also, you may want to style the output of the code to match your website design.
+
+## How to center object in CSS using grid
+
+```css
+.grid-container {
+  display: grid;
+  place-items: center;
+}
+```
