@@ -43,6 +43,8 @@ You can use this code in a custom plugin or in your theme's functions.php file. 
 
 ## How to center object in CSS using grid
 
+It's worth to note that, you can also use the place-items shorthand property to center items both horizontally and vertically at once.
+
 ```css
 .grid-container {
   display: grid;
