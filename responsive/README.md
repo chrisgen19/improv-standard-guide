@@ -19,6 +19,7 @@
 &nbsp;&nbsp;[3.1 Grid Elements](#31-grid-elements)</br>
 [4. Breakpoints](#4-breakpoints)</br>
 [5. Splitting The CSS](#5-splitting-the-css)</br>
+[6. Responsive Fonts](#6-responsive-fonts)</br>
 
 ## 1. Images
 
@@ -235,4 +236,21 @@ Separating the CSS into individual files is a worthwhile task. Linking the separ
 <link href="tablet.css" media="screen and (min-width: 768px) and (max-width: 1083.98px)" rel="stylesheet">
 <link href="desktop.css" media="screen and (min-width: 1084px)" rel="stylesheet">
 <link href="print.css" media="print" rel="stylesheet">
+```
+
+## 6. Responsive Fonts
+
+use clamp
+
+```css
+@function clamp($val, $min, $max) {
+  @return min(max($val, $min), $max);
+}
+```
+
+```css
+.my-class {
+  font-size: calc( min( max(0.8rem + 3vw, 1.125rem), 3.5rem));
+  font-size: clamp(1.125rem, 0.8rem + 3vw, 3.5rem);
+}
 ```
