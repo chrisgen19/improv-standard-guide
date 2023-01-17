@@ -51,3 +51,51 @@ It's worth to note that, you can also use the place-items shorthand property to 
   place-items: center;
 }
 ```
+
+## Simple Hero Slider
+
+```html
+<div class="hero-slider">
+  <img src="image-1.jpg" alt="slide 1" class="hero-slide active">
+  <img src="image-2.jpg" alt="slide 2" class="hero-slide">
+  <img src="image-3.jpg" alt="slide 3" class="hero-slide">
+</div>
+```
+
+```css
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Set the desired height for your slider */
+}
+
+.hero-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+```
+
+```js
+const heroSlider = document.querySelector('.hero-slider');
+const heroSlides = document.querySelectorAll('.hero-slide');
+let currentSlide = 0;
+
+function showNextSlide() {
+  heroSlides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % heroSlides.length;
+  heroSlides[currentSlide].classList.add('active');
+}
+
+setInterval(showNextSlide, 5000); /* This will change the slide every 5 seconds */
+```
+
+This code will create a simple hero slider with 3 images and a fixed height. The images will transition every 5 seconds. You can change the time interval as per your requirement.
+
+You may need to adjust the styling as per your design requirement.
